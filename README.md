@@ -7,7 +7,7 @@ This project orchestrates a chain of specialized AI agents with **LangGraph** to
 ![Brief form](screenshots/01-brief-form.png)
 *Client brief form*
 
-![Agent activity log](screenshots/02-activity-log.png)
+![Agent activity log](screenshots/02-activity.png)
 *Live agent activity log*
 
 ![Generated results](screenshots/03-results.png)

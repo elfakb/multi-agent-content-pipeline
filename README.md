@@ -282,27 +282,3 @@ pytest -m integration
 
 Entegrasyon testleri gerçek ve ücretli API çağrıları yapar.
 
-## Yol Haritası
-
-- [ ] Ajanlar arasında insan onay adımları (human-in-the-loop)
-- [ ] QC tarafından tetiklenen revizyon döngüsü
-- [ ] Ek görsel ve video sağlayıcı desteği
-- [ ] Kampanya paketini ZIP olarak dışa aktarma
-
-## Lisans
-
-MIT Lisansı ile yayımlanmıştır. Ayrıntılar için `LICENSE` dosyasına bakın.
-````
-
-Ekran görüntülerinin görünmesi için şunları yapman gerekir:
-
-1. Proje klasöründe `docs/screenshots/` klasörünü oluştur.
-2. Görüntüleri şu adlarla kaydet (ya da README'deki yolları kendi dosya adlarına göre değiştir):
-   - `01-brief-form.png` (brief formu)
-   - `02-activity-log.png` (ajan aktivite logu)
-   - `03-results.png` (strateji, caption ve görsel sonuçları)
-   - `04-video-studio.png` (Video Studio sekmesi)
-3. Kaç ekran görüntün varsa o kadar `![...]` satırı bırak, fazlasını sil. Dosya adları büyük/küçük harfe duyarlıdır, README'deki adlarla birebir aynı olmalı.
-4. Push'tan önce `git status` ile `.env` dosyasının listede olmadığını kontrol et.
-
-README MIT lisansına atıf yapıyor. Repoya bir `LICENSE` dosyası eklemezsen GitHub'da "Add file > Create new file" ile `LICENSE` yazıp çıkan şablonlardan MIT'yi seçebilirsin. Lisans eklemeyeceksen iki dildeki lisans bölümlerini sil.
